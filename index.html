@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,37 +11,80 @@
 
     <link rel="stylesheet" href="assents/Estilos/Responsividade.css">
     <link rel="stylesheet" href="/assents/Estilos/header.css">
+    <link rel="stylesheet" href="assents/Estilos/slider.css">
 </head>
+
 <body>
-       <header>
-            <nav>
-             
-
-                <figure class="logotipo">
-                    <a href="#" class="logo">
-                        <img src="assents/imagens/Logo.png" alt="">
-                    </a>
-                </figure>
-                <div class="Links"> 
-                    <a href=""> Inicio </a>
-                    <a href=""> Sobre </a>
-                    <a href=""> Serviços </a>
-                    <a href=""> Galeria </a>
-                    <a href=""> Contacto </a>
-                    <a href="" class="watsapp"> Fale Connosco <ion-icon name="logo-whatsapp" style="margin-left: 10px; color: rgb(11, 141, 11);font-size: 25px;"></ion-icon> </a>
-                </div>  
-
-                <button id="botao" onclick="clicar()">  &#9776;</button>
-                <button  id="fechar" onclick="fechar()"> <ion-icon name="close"></ion-icon> </button>
-            </nav>
-       </header>
+    <header>
+        <nav>
 
 
+            <figure class="logotipo">
+                <a href="#" class="logo">
+                    <img src="assents/imagens/Logo.png" alt="">
+                </a>
+            </figure>
+            <div class="Links">
+                <a href=""> Inicio </a>
+                <a href=""> Sobre </a>
+                <a href=""> Serviços </a>
+                <a href=""> Galeria </a>
+                <a href=""> Contacto </a>
+                <a href="" class="watsapp"> Fale Connosco <ion-icon name="logo-whatsapp"
+                        style="margin-left: 15px; color: rgb(11, 141, 11);font-size: 25px;"></ion-icon> </a>
+            </div>
+
+            <button id="botao" onclick="clicar()"> &#9776;</button>
+            <button id="fechar" onclick="fechar()"> <ion-icon name="close"></ion-icon> </button>
+        </nav>
+    </header><br><br>
 
 
-       <main>
-        
-       </main>
+    <main>
+        <div class="slider">
+            <div class="slides">
+                <!-- Radios buttons  -->
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+
+                <!-- slides Imagens -->
+
+                <div class="slide first">
+                    <img src="assents/imagens/teste.avif" alt="">
+                </div>
+
+                <div class="slide ">
+                    <img src=" " alt="" >
+                </div>
+                <div class="slide">
+                    <img src=" " alt="" >
+                </div>
+                <div class="slide">
+                    <img src=" " alt="" >
+                </div>
+                <!-- fim slide -->
+                <!-- Navigation auto  -->
+
+                <div id="Navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+
+            </div>
+
+
+            <div class="manual-navigation">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+        </div>
+    </main>
 
 
 
@@ -67,25 +111,28 @@
 
 
 
-        
 
 
-       <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 
-       <!-- Responsividade  -->
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 
-           <div  id="Responsivo" style="display: none;"> 
-                    <div>
-                        <a href=""> Inicio </a>
-                        <a href=""> Sobre </a>
-                        <a href=""> Serviços </a>
-                        <a href=""> Galeria </a>
-                        <a href=""> Contacto </a>
-                        <a href="" class="watsapp"> Fale Connosco <ion-icon name="logo-whatsapp" style="margin-left: 10px; color: rgb(11, 141, 11);font-size: 25px;"></ion-icon> </a>
-                    </div>
-            </div>  
+    <!-- Responsividade  -->
+
+    <div id="Responsivo" style="display: none;">
+        <div>
+            <a href=""> Inicio </a>
+            <a href=""> Sobre </a>
+            <a href=""> Serviços </a>
+            <a href=""> Galeria </a>
+            <a href=""> Contacto </a>
+            <a href="" class="watsapp"> Fale Connosco <ion-icon name="logo-whatsapp"
+                    style="margin-left: 10px; color: rgb(11, 141, 11);font-size: 25px;"></ion-icon> </a>
+        </div>
+    </div>
 
 
-            <script src="assents/script.js"></script>
+    <script src="assents/script.js"></script>
+    <script src="sliide.js"></script>
 </body>
+
 </html>
