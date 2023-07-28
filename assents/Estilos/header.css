@@ -71,7 +71,7 @@ nav {
 
 
 
-.watsapp {
+/* .watsapp {
     border: 1px solid rgb(13, 216, 94);
     padding: 15px;
     width: 12%;
@@ -79,16 +79,17 @@ nav {
     border-radius: 40px;
     background-color: transparent;
     transition: background 1s;
+} */
+.icon{
+    transition: transform 2s;
 }
 
-.watsapp:hover {
-    background-color: rgb(13, 216, 94);
+.icon:hover {
+   transform: rotate(380deg);
 }
 
 
-.watsapp icon {
-    margin-left: 20px;
-}
+ 
 
 button {
     display: none;
@@ -100,7 +101,8 @@ button {
     cursor: pointer;
 
 }
- 
+
+
 
 
 
