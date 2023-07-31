@@ -1,0 +1,55 @@
+#contactos {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#contactos .imformação {
+    background-color: #ddd;
+    margin-right:20px;
+    width: 30%;
+    float: left;
+    border-top: 4px solid darkviolet;
+    border-bottom: 4px solid darkviolet;
+    padding: 10px;
+    color: darkviolet;
+}
+
+.icone {
+    font-size: 50px;
+    color: darkviolet;
+    margin-right: 10px;
+}
+
+#contactos h1 {
+    position: absolute;
+    margin-left: 65px;
+}
+
+.form{
+    background-color: #ddd;
+    width: 40%;
+    border-top: 4px solid darkviolet;
+    border-bottom: 4px solid darkviolet;
+    padding: 10px;
+    color: darkviolet;
+}
+form{
+     
+    margin: auto;
+   width: 70%;
+    
+}
+.form input{
+    width: 100%;
+    margin: auto;
+    height: 35px;
+    outline: none;
+    border-radius: 1px;
+    
+}
+.form label{
+    color: black;
+    
+}

@@ -51,15 +51,15 @@ slide{
 }
 
 #radio2:checked ~ .first{
-    margin-left: -25%;
+    margin-left: -100%;
     transition:  1s;
 }
 #radio3:checked ~ .first{
-    margin-left: -50%;
+    margin-left: -200%;
     transition:  1s;
 }
 #radio4:checked ~ .first{
-    margin-left: -75%;
+    margin-left: -300%;
     transition:  1s;
 }
 

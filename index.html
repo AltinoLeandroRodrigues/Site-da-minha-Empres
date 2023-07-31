@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="assents/Estilos/slider.css">
     <link rel="stylesheet" href="assents/Estilos/serviços.css">
     <link rel="stylesheet" href="assents/Estilos/galeria.css">
+    <link rel="stylesheet" href="assents/Estilos/contactos.css">
 </head>
 
 <body>
@@ -29,8 +30,8 @@
             <div class="Links">
                 <a href=""> Inicio </a>
                 <a href=""> Sobre </a>
-                <a href=""> Serviços </a>
-                <a href=""> Galeria </a>
+                <a href="#serviços"> Serviços </a>
+                <a href="#Galeria"> Galeria </a>
                 <a href=""> Contacto </a>
                 <a href="" class="watsapp"> <ion-icon name="logo-whatsapp" class="icon"
                         style="margin-left: 15px; color: rgb(11, 141, 11);font-size: 40px;"></ion-icon> </a>
@@ -39,7 +40,7 @@
             <button id="botao" onclick="clicar()"> &#9776;</button>
             <button id="fechar" onclick="fechar()"> <ion-icon name="close"></ion-icon> </button>
         </nav>
-    </header> 
+    </header>
 
 
     <main>
@@ -56,13 +57,13 @@
                         <img src="assents/imagens/teste.avif" alt="">
                     </div>
                     <div class="slide ">
-                        <img src=" " alt="" >
+                        <img src=" " alt="">
                     </div>
                     <div class="slide">
-                        <img src=" " alt="" >
+                        <img src=" " alt="">
                     </div>
                     <div class="slide">
-                        <img src=" " alt="" >
+                        <img src=" " alt="">
                     </div>
                     <!-- fim slide -->
                     <!-- Navigation auto  -->
@@ -82,60 +83,91 @@
             </div>
         </section>
 
-        <section class="serviços">
+        <section class="serviços" id="serviços">
             <h2 class="p-titulo"> SERVIÇOS </h1>
-            <hr>
-            <p>Empresa voltada em Consultoria e Gestão personalizada sob-medidas, para empresas de todos os portes, com vista a ajustar a cultura organizacional, processos, procedimentos e rotinas que visem melhorar os resultados do seu negócio </p>
+                <hr>
+                <p>Empresa voltada em Consultoria e Gestão personalizada sob-medidas, para empresas de todos os portes,
+                    com vista a ajustar a cultura organizacional, processos, procedimentos e rotinas que visem melhorar
+                    os resultados do seu negócio </p>
 
 
-            <div class="lista-dos-serviços">
-                <h1 class="titulo">
-                    <ion-icon name="briefcase"style="color:blueviolet; font-size: 100px;"  ></ion-icon>
-                    <h3> Nossos SERVIÇOS </h3>
-                </h1>
+                <div class="lista-dos-serviços">
+                    <h1 class="titulo">
+                        <ion-icon name="briefcase" style="color:blueviolet; font-size: 100px;"></ion-icon>
+                        <h3> Nossos SERVIÇOS </h3>
+                    </h1>
 
-                <ul>
-                    <li> CRIAÇÃO E GESTÃO DE PÁGINAS </li>
-                    <li> TRABALHOS ESCOLARES </li>
-                    <li>INSTALAÇÃO DE SISTEMAS OPERACIONAIS </li>
-                    <li> GESTÃO DO GOOGLE MAPS </li>
-                    <lI> E MUITO MAIS...</lI>
-                </ul>
-            </div>
+                    <ul>
+                        <li> CRIAÇÃO E GESTÃO DE PÁGINAS </li>
+                        <li> TRABALHOS ESCOLARES </li>
+                        <li>INSTALAÇÃO DE SISTEMAS OPERACIONAIS </li>
+                        <li> GESTÃO DO GOOGLE MAPS </li>
+                        <lI> E MUITO MAIS...</lI>
+                    </ul>
+                </div>
         </section>
 
-        <section class="Galeria">
-            <h2 class="p-titulo"> GALERIA </h1>
-            <hr>
-            <P style="text-align: center;"> Encontre aqui os projectos em desenvolvimento e desenvolvidos.  </P>
 
-            <div class="galeria-imagens">
-                <figure>
+        <h2 class="p-titulo"> GALERIA </h1>
+            <hr>
+            <P style="text-align: center;"> Encontre aqui os projectos em desenvolvimento e desenvolvidos. </P>
+
+            <section class="Galeria" id="Galeria">
+
+                <figure class="imagens">
                     <img src="assents/imagens/galeria1.avif" alt="">
                 </figure>
 
-                <figure>
+                <figure class="imagens">
                     <img src="assents/imagens/galeria2.avif" alt="">
                 </figure>
 
-                <figure>
+                <figure class="imagens">
                     <img src="assents/imagens/galeria3.avif" alt="">
                 </figure>
 
-                <figure>
+                <figure class="imagens">
                     <img src="assents/imagens/galeria4.avif" alt="">
                 </figure>
 
-                <figure>
+                <figure class="imagens">
                     <img src="assents/imagens/galeria5avif.avif" alt="">
                 </figure>
 
-                <figure>
-                    <img src="assents/imagens/galeria6.avif" alt="">
+                <figure class="imagens">
+                    <img src="assents/imagens/galeria4.avif" alt="">
                 </figure>
-            </div>
-        </section>
- 
+
+            </section>
+
+            <h2 class="p-titulo"> Contactos </h1>
+                <hr>
+                <p style="text-align: center;"> Sinta-se confortável, entre em contacto connosco </p>
+
+
+                <section id="contactos">
+                    <div class="imformação">
+                        <h1> Localização: </h1>
+                        <ion-icon name="pin"  class="icone"></ion-icon><span>Luanda, Angola no Município de Talatona.</span><br><br><br>
+
+
+                        <h1> Email: </h1>
+                        <ion-icon name="mail"class="icone"></ion-icon>  <span>altino10leandro@gmail.com</span><br><br><br>
+
+
+                        <h1> Número: </h1>
+                        <ion-icon name="call" class="icone"></ion-icon> <span>927 292 912 <span><br><br>
+                    </div>
+
+                    <div class="form">
+                        <form action="" method="post">
+                            <label for="name"> Nome </label><br>
+                            <input type="text" name="name" id="nome">
+                        </form>
+                    </div>
+
+                </section>
+
 
     </main>
 
