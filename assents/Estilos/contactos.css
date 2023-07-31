@@ -93,7 +93,7 @@ iframe {
     border-radius: 30px;
     color: white;
     cursor: pointer;
-    animation: mover 1.5s infinite;
+    animation: mover 1s infinite;
 }
 @keyframes mover {
     100% {
