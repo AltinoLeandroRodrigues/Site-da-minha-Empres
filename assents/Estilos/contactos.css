@@ -107,16 +107,19 @@ iframe {
   }
  
 
-.send{
+/* .send{
     color: white;
     position: absolute;
     margin-left: 250px ;
     margin-top: -45px;
     transform: rotate(-50deg);
-}
+} */
+
+
 
 @media (min-width:992px) and(max-width:1200px){
-    .imformação{
+    #contacos{
+        display: block;
         width: 100%;
         background-color: blue;
     }
