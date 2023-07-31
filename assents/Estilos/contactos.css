@@ -8,7 +8,7 @@
 #contactos .imformação {
     background-color: #ddd;
     margin-right: 20px;
-    width: 30%;
+    width: 35%;
     float: left;
     border-top: 4px solid darkviolet;
     border-bottom: 4px solid darkviolet;
@@ -32,7 +32,7 @@
 
 .form {
     background-color: #ddd;
-    width: 40%;
+    width: 50%;
     border-top: 4px solid darkviolet;
     border-bottom: 4px solid darkviolet;
     padding: 0px 10px;
@@ -47,7 +47,7 @@ form {
 }
 
 .form input {
-    width: 70%;
+    width: 90%;
     margin: auto;
     height: 35px;
     outline: none;
@@ -124,14 +124,47 @@ iframe {
    }
 
    #contactos {
-    display: flex;
+    display: grid;
     justify-content: center;
     flex-direction: column;
     margin-top: 20px;
     padding-bottom: 20px;
 }
 
+#contactos .imformação {
+    background-color: #ddd;
+    margin: auto auto 5px ;
+
+    width: 90%;
+    float: left;
+    border-top: 4px solid darkviolet;
+    border-bottom: 4px solid darkviolet;
+    padding: 10px;
+    color: darkviolet;
+    padding-bottom: 10px;
 }
+
+
+.form {
+    background-color: #ddd;
+    margin: auto;
+    width: 90%;
+    border-top: 4px solid darkviolet;
+    border-bottom: 4px solid darkviolet;
+    padding: 0px 10px;
+    color: darkviolet;
+    float: right;
+}
+
+
+}
+
+
+
+
+
+
+
 
 @media (min-width:768px) and(max-width:991px){
     .Galeria{
@@ -158,7 +191,30 @@ iframe {
         color: darkviolet;
         padding-bottom: 10px;
     }
+
+
+    
+    .form {
+        background-color: #ddd;
+        margin: auto;
+        width: 90%;
+        border-top: 4px solid darkviolet;
+        border-bottom: 4px solid darkviolet;
+        padding: 0px 10px;
+        color: darkviolet;
+        float: right;
+    }
+
 }
+
+
+
+
+
+
+
+
+
 
 @media(max-width:767px){
     .Galeria{
@@ -187,6 +243,17 @@ iframe {
         padding: 10px;
         color: darkviolet;
         padding-bottom: 10px;
+    }
+
+    .form {
+        background-color: #ddd;
+        margin: auto;
+        width: 90%;
+        border-top: 4px solid darkviolet;
+        border-bottom: 4px solid darkviolet;
+        padding: 0px 10px;
+        color: darkviolet;
+        float: right;
     }
 
 
