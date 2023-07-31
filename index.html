@@ -157,12 +157,33 @@
 
                         <h1> Número: </h1>
                         <ion-icon name="call" class="icone"></ion-icon> <span>927 292 912 <span><br><br>
+
+                            <!-- <figure>
+                                <img src="assents/imagens/email.avif" alt="" style="width: 300px;">
+                            </figure> -->
+
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126129.89024401132!2d13.04697924335937!3d-8.9205182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a51f54a3af031a3%3A0x587d8c98f8b22325!2sUNIVERSO%20ANGOLA!5e0!3m2!1spt-PT!2sao!4v1690814407258!5m2!1spt-PT!2sao" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
+
+
+
 
                     <div class="form">
                         <form action="" method="post">
                             <label for="name"> Nome </label><br>
-                            <input type="text" name="name" id="nome">
+                            <input type="text" name="name" id="nome" placeholder="Digite o seu Nome " required> <br>
+
+                            <label for="email"> Email </label><br>
+                            <input type="email" name="email" id="email" placeholder="Digite o seu Email "> <br>
+
+                            <label for="name"> Assunto </label><br>
+                            <input type="text" name="name" id="Assunto" placeholder="Digite o Assunto " required><br>
+
+                            <label for="msa"> Mensagem </label><br>
+                         <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Mensagem"></textarea>
+
+
+                         <input type="submit" value="Enviar" id="enviar">  
                         </form>
                     </div>
 

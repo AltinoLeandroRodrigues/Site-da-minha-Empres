@@ -1,19 +1,20 @@
 #contactos {
     display: flex;
     justify-content: center;
-    margin: auto;
     margin-top: 20px;
+    padding-bottom: 20px;
 }
 
 #contactos .imformação {
     background-color: #ddd;
-    margin-right:20px;
+    margin-right: 20px;
     width: 30%;
     float: left;
     border-top: 4px solid darkviolet;
     border-bottom: 4px solid darkviolet;
     padding: 10px;
     color: darkviolet;
+    padding-bottom: 10px;
 }
 
 .icone {
@@ -25,31 +26,113 @@
 #contactos h1 {
     position: absolute;
     margin-left: 65px;
+    color: black;
+
 }
 
-.form{
+.form {
     background-color: #ddd;
     width: 40%;
     border-top: 4px solid darkviolet;
     border-bottom: 4px solid darkviolet;
-    padding: 10px;
+    padding: 0px 10px;
     color: darkviolet;
 }
-form{
-     
-    margin: auto;
-   width: 70%;
-    
-}
-.form input{
+
+form {
+    padding: 10px;
     width: 100%;
+
+}
+
+.form input {
+    width: 70%;
     margin: auto;
     height: 35px;
     outline: none;
-    border-radius: 1px;
-    
+    margin-top: 5px;
+    border-radius: 3px;
+    border: 1px solid rgb(61, 34, 72);
+    margin-bottom: 10px;
+
 }
-.form label{
+
+.form label {
     color: black;
-    
+
 }
+
+#Assunto {
+    width: 90%;
+    height: 40px;
+}
+
+#msg {
+    width: 95%;
+    height: 200px;
+
+    resize: none;
+    outline: none;
+
+    border-radius: 5px;
+    border: 1px solid rgb(61, 34, 72);
+}
+
+iframe {
+    width: 100%;
+    height: 300px;
+}
+
+#enviar {
+    display: flex;
+    width: 150px;
+    margin: 20px auto;
+    border: 0px solid black;
+    background-color: darkviolet;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    animation: mover 1.5s infinite;
+}
+@keyframes mover {
+    100% {
+      transform: scale(1.1);
+      box-shadow: 1px 1px 16px darkviolet;
+    }
+       
+  }
+  
+  #enviar:hover{
+    animation: none;
+  }
+ 
+
+.send{
+    color: white;
+    position: absolute;
+    margin-left: 250px ;
+    margin-top: -45px;
+    transform: rotate(-50deg);
+}
+
+@media (min-width:992px) and(max-width:1200px){
+    .imformação{
+        width: 100%;
+        background-color: blue;
+    }
+}
+
+@media (min-width:768px) and(max-width:991px){
+    .imformação{
+        width: 100%;
+        background-color: blue;
+    }
+}
+
+@media(max-width:767px){
+    .imformação{
+        width: 100%;
+        background-color: blue;
+    }
+}
+
