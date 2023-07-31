@@ -37,6 +37,7 @@
     border-bottom: 4px solid darkviolet;
     padding: 0px 10px;
     color: darkviolet;
+    float: right;
 }
 
 form {
@@ -118,24 +119,76 @@ iframe {
 
 
 @media (min-width:992px) and(max-width:1200px){
-    #contacos{
-        display: block;
-        width: 100%;
-        background-color: blue;
-    }
+   .Galeria{
+    padding: 10px;
+   }
+
+   #contactos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
 }
 
 @media (min-width:768px) and(max-width:991px){
-    .imformação{
-        width: 100%;
-        background-color: blue;
+    .Galeria{
+        padding: 10px;
+       }
+
+       #contactos {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    #contactos .imformação {
+        background-color: #ddd;
+        margin: auto auto 5px ;
+
+        width: 90%;
+        float: left;
+        border-top: 4px solid darkviolet;
+        border-bottom: 4px solid darkviolet;
+        padding: 10px;
+        color: darkviolet;
+        padding-bottom: 10px;
     }
 }
 
 @media(max-width:767px){
-    .imformação{
-        width: 100%;
-        background-color: blue;
+    .Galeria{
+        padding: 10px;
+       }
+
+
+       #contactos {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 20px;
+        padding-bottom: 20px;
     }
+
+
+
+    #contactos .imformação {
+        background-color: #ddd;
+        margin: auto auto 5px ;
+
+        width: 90%;
+        float: left;
+        border-top: 4px solid darkviolet;
+        border-bottom: 4px solid darkviolet;
+        padding: 10px;
+        color: darkviolet;
+        padding-bottom: 10px;
+    }
+
+
 }
 
