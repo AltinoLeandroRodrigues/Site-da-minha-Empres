@@ -24,5 +24,20 @@ function fechar(){
 
 
 
-// slide
+//  topo
+
+function subir(){
+  let subir=document.getElementById('topo');
+  let baixar=document.getElementById('baixa');
+
+  subir.style.display="none";
+  baixar.style.display="flex";
+}
+function baixar(){
+  let subir=document.getElementById('topo');
+  let baixar=document.getElementById('baixa');
+
+  subir.style.display="flex";
+  baixar.style.display="none";
+}
 

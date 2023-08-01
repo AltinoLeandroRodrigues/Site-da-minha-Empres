@@ -33,7 +33,7 @@ slide{
 }
 .manual-btn{
     border: 1px solid white;
-    padding: 10px;
+    padding: 8px;
     border-radius: 10px;
     cursor: pointer;
     transition: 1s;
@@ -65,7 +65,7 @@ slide{
 
 #Navigation-auto div{
     border: 2px solid #20a6ff;
-    padding: 10px;
+    padding: 8px;
     border-radius: 10px;
     cursor: pointer;
 }
@@ -78,7 +78,7 @@ slide{
 }
 
 #Navigation-auto div:not(:last-child){
- margin-right: 38px;
+ margin-right: 40px;
 }
 
 #radio1:checked ~ #Navigation-auto .auto-btn1{

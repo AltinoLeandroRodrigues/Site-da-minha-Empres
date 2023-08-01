@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="assents/Estilos/galeria.css">
     <link rel="stylesheet" href="assents/Estilos/contactos.css">
     <link rel="stylesheet" href="assents/Estilos/imformação.css">
+    <link rel="stylesheet" href="assents/Estilos/footer.css">
 </head>
 
 <body>
@@ -201,7 +202,7 @@
                 </section>
 
 
-                <section class="imformação-basica">
+                <section class="imformação-basica" id="imformação">
                     <div class="ALR-77">
                         <h1> ALR-77 </h1>
                         <ul>
@@ -239,36 +240,25 @@
                             <a href="https://www.linkedin.com/in/altino-leandro-b0630a265/" target="_blank"><ion-icon
                                     name="logo-linkedin"></ion-icon></a>
 
-                        </figure>
+                        </figure> <br>
                     </div>
                 </section>
 
-    </main>
+    </main> 
 
 
     <!-- icone do topo -->
-    <a href="#">
-        <ion-icon name="arrow-up" class="topo"></ion-icon>
-    </a>
+    
+     <a href="#"> <ion-icon name="arrow-up" class="topo" id="topo" onclick="subir()"></ion-icon> </a>
+     <a href="#imformação"> <ion-icon name="arrow-round-down" class="topo1" id="baixa" onclick="baixar()"></ion-icon> </a>
+   
     <!-- fim  -->
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <footer>
+        <p> &copy; Copyright ALR-77 2023. Todos Direitos Reservado</p>
+    </footer>
 
 
 
@@ -299,6 +289,7 @@
 
     <script src="assents/script.js"></script>
     <script src="sliide.js"></script>
+ 
 </body>
 
 </html>
