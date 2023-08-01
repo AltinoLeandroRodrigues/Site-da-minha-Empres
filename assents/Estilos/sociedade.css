@@ -78,7 +78,7 @@
       }
 
       .socios img:hover{
-        transform: scale(1.2);
+        transform:scale(1.2);
         filter: grayscale(0%);
         cursor: pointer;
     }
