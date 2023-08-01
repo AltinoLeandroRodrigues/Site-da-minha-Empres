@@ -1,4 +1,5 @@
-.ALR-77,.Redes-socias{
+.ALR-77,
+.Redes-socias {
     width: 30%;
     float: left;
     display: flex;
@@ -62,7 +63,8 @@
     margin-top: 40px;
 }
 
-.imformação-basica li,p {
+.imformação-basica li,
+p {
     list-style: none;
     color: #5E5E82;
 }
@@ -81,12 +83,13 @@
     right: 40px;
     transition: 1s;
 }
+
 .topo:hover {
     background-color: rgb(148, 0, 211);
-    
+
 }
 
-.Redes-socias a{
+.Redes-socias a {
     font-size: 30px;
     color: darkviolet;
     justify-content: center;
@@ -94,6 +97,76 @@
     transition: transform 1s;
     margin-right: 30px;
 }
+
 /* figure a:hover{
     background-color: darkviolet;
 } */
+
+
+
+
+
+
+
+
+
+/* ^responsividade */
+@media (min-width:992px) and(max-width:1200px) {
+
+    .ALR-77,
+    .Redes-socias {
+        width: 30%;
+        float: left;
+        display: flex;
+        justify-content: center;
+    }
+
+    .links-uteis {
+        width: 100%;
+        margin-left: 0;
+    }
+
+}
+
+
+
+
+
+
+
+
+@media (min-width:768px) and(max-width:991px) {
+
+    .ALR-77,
+    .Redes-socias {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .links-uteis {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-left: 0;
+
+    }
+
+}
+
+
+@media(max-width:767px) {
+
+    .ALR-77,
+    .Redes-socias {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .links-uteis {
+        width: 100%;
+        margin-left: 0;
+    }
+
+}
