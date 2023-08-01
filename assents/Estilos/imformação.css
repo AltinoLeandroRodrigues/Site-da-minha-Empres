@@ -26,6 +26,11 @@
     text-decoration: none;
 
 }
+.imformação-basica a:hover {
+    color: darkviolet;
+    text-decoration: none;
+
+}
 
 
 .links-uteis {
@@ -36,6 +41,7 @@
     float: left;
     margin-left: 30px;
 }
+
 
 /* .links-uteis  {
     display: flex;
@@ -63,11 +69,14 @@
     margin-top: 40px;
 }
 
-.imformação-basica li,
-p {
+.imformação-basica li {
     list-style: none;
     color: #5E5E82;
 }
+.links-uteis,.Redes-socias p{
+    color: #5E5E82;
+}
+
 
 
 

@@ -6,7 +6,7 @@
 .p-titulo{
     display: flex;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 30px;
     color: blueviolet;
 }
 hr{
@@ -18,7 +18,6 @@ hr{
     background-color: blueviolet;
 }
 .serviços p{
-    font-weight: bolder;
     margin:20px auto;
     text-align: center;
 }

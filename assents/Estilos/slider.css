@@ -27,13 +27,13 @@ slide{
 .manual-navigation{
     position: absolute;
     width: 100%;
-    margin-top: 21px ;
+    margin-top: -39px ;
     display: flex;
     justify-content: center;
 }
 .manual-btn{
     border: 1px solid white;
-    padding: 8px;
+    padding: 10px;
     border-radius: 10px;
     cursor: pointer;
     transition: 1s;
@@ -65,20 +65,20 @@ slide{
 
 #Navigation-auto div{
     border: 2px solid #20a6ff;
-    padding: 8px;
+    padding: 10px;
     border-radius: 10px;
     cursor: pointer;
 }
 #Navigation-auto{
  position: absolute;
  width: 100%;
- margin-top:420px ;
+ margin-top:360px ;
  display: flex;
  justify-content: center;
 }
 
 #Navigation-auto div:not(:last-child){
- margin-right: 40px;
+ margin-right: 38px;
 }
 
 #radio1:checked ~ #Navigation-auto .auto-btn1{
