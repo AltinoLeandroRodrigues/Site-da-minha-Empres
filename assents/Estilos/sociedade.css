@@ -1,0 +1,21 @@
+.socios{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 1px 1px 5px  darkviolet;
+}
+.socios img{
+  width: 100px;
+  filter: grayscale(100%);
+  border-radius: 10%;
+  margin-right: 100px;
+  padding: 10px;
+  transition: filter,transform  1s;
+}
+.socios img:hover{
+    transform: scale(1.3);
+    filter: grayscale(0%);
+    cursor: pointer;
+}
+

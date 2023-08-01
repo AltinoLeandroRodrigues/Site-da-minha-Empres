@@ -26,6 +26,7 @@
     text-decoration: none;
 
 }
+
 .imformação-basica a:hover {
     color: darkviolet;
     text-decoration: none;
@@ -60,9 +61,11 @@
 
 
 .imformação-basica {
-    width: 70%;
+    width: 80%;
     margin: auto;
+    /* height: 300px; */
     padding: 10px;
+    /* box-shadow: 2px 2px 15px 2px darkviolet; */
 }
 
 .cell {
@@ -73,7 +76,9 @@
     list-style: none;
     color: #5E5E82;
 }
-.links-uteis,.Redes-socias p{
+
+.links-uteis,
+.Redes-socias p {
     color: #5E5E82;
 }
 
@@ -92,6 +97,7 @@
     right: 40px;
     transition: 1s;
 }
+
 .topo1 {
     display: none;
     position: fixed;

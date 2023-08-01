@@ -1,12 +1,27 @@
-footer{
+footer {
      background-color: darkviolet;
      color: white;
      padding: 30px;
-    width: 100%;
-    float: right;
+     width: 100%;
+     float: right;
 }
-footer p{
+
+footer p {
      color: white;
      font-weight: bolder;
      margin-left: 100px;
+}
+
+footer a {
+     float: right;
+     color: white;
+     text-decoration: none;
+     box-shadow: 2px 2px 2px white;
+     transition: 2s;
+}
+
+footer a:hover {
+     color: orangered;
+     color: orangered;
+     
 }
