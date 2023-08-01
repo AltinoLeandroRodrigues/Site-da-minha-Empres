@@ -107,6 +107,11 @@ iframe {
     animation: mover 1s infinite;
 }
 
+#enviar:disabled{
+    cursor: not-allowed;
+    color: rgba(158, 6, 223, 0.904);
+}
+
 
 @keyframes mover {
     100% {
