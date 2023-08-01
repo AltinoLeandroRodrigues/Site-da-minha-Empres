@@ -1,0 +1,99 @@
+.ALR-77,.Redes-socias{
+    width: 30%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ALR-77 h1 {
+    color: darkviolet;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+
+.Redes-socias h1 {
+    color: darkviolet;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+
+.imformação-basica a {
+    color: #5E5E82;
+    text-decoration: none;
+
+}
+
+
+.links-uteis {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    float: left;
+    margin-left: 30px;
+}
+
+/* .links-uteis  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    float: left;
+} */
+
+.links-uteis h1 {
+    color: darkviolet;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+
+
+.imformação-basica {
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+}
+
+.cell {
+    margin-top: 40px;
+}
+
+.imformação-basica li,p {
+    list-style: none;
+    color: #5E5E82;
+}
+
+
+
+.topo {
+    position: fixed;
+    text-decoration: none;
+    font-size: 40px;
+    background-color: rgba(148, 0, 211, 0.329);
+    border-radius: 100%;
+    color: white;
+    top: 0;
+    margin-top: 600px;
+    right: 40px;
+    transition: 1s;
+}
+.topo:hover {
+    background-color: rgb(148, 0, 211);
+    
+}
+
+.Redes-socias a{
+    font-size: 30px;
+    color: darkviolet;
+    justify-content: center;
+    border-radius: 100%;
+    transition: transform 1s;
+    margin-right: 30px;
+}
+/* figure a:hover{
+    background-color: darkviolet;
+} */
