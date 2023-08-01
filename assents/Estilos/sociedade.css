@@ -10,7 +10,7 @@
   filter: grayscale(100%);
   border-radius: 10%;
   margin-right: 100px;
-  padding: 10px;
+ 
   transition: filter,transform  1s;
 }
 .socios img:hover{
@@ -19,3 +19,109 @@
     cursor: pointer;
 }
 
+
+
+/* ^responsividade */
+@media(max-width:1200px) {
+    .socios{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        margin: auto;
+        box-shadow: 1px 1px 5px  darkviolet;
+    }
+    .socios img{
+        width: 250px;
+        filter: grayscale(100%);
+        border-radius: 10%;
+        margin-right: 10px;
+    
+         
+         
+        transition: filter,transform  1s;
+      }
+
+      .socios img:hover{
+        transform: scale(1.2);
+        filter: grayscale(0%);
+        cursor: pointer;
+    }
+
+ 
+}
+
+
+
+
+
+@media (min-width:768px) and(max-width:991px) {
+    .socios{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        margin: auto;
+        box-shadow: 1px 1px 5px  darkviolet;
+    }
+
+    .socios img{
+        width: 200px;
+        filter: grayscale(100%);
+        border-radius: 10%;
+        margin-right: 30px;
+      
+         
+         
+        padding: 20px;
+        transition: filter,transform  1s;
+      }
+
+      .socios img:hover{
+        transform: scale(1.2);
+        filter: grayscale(0%);
+        cursor: pointer;
+    }
+
+
+
+   
+}
+
+
+@media(max-width:767px) {
+    .socios{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        margin: auto;
+        box-shadow: 1px 1px 5px  darkviolet;
+    }
+
+
+    .socios img{
+        width: 200px;
+        filter: grayscale(100%);
+        border-radius: 10%;
+        margin-right: 10px;
+       
+         
+        padding: 10px;
+        transition: filter,transform  1s;
+      }
+      .socios img:hover{
+        transform: none;
+        filter: grayscale(0%);
+        cursor: pointer;
+    }
+
+    footer a {
+        text-align: center;
+        width: 100%;
+        color: white;
+        text-decoration: none;
+        box-shadow: 2px 2px 2px white;
+        transition: 2s;
+   }
+}
