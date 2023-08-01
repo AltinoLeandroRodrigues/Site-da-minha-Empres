@@ -181,21 +181,23 @@
                     <div class="form">
                         <form action="https://formsubmit.co/altino10leandro@gmail.com" method="post">
 
-                            <label for="name"> Nome </label><br>
+                            <label for="Nome"> Nome </label><br>
                             <input type="text" name="name" id="nome" placeholder="Digite o seu Nome " required> <br>
 
-                            <label for="email"> Email </label><br>
+                            <label for="Email"> Email </label><br>
                             <input type="email" name="email" id="email" placeholder="Digite o seu Email "> <br>
 
-                            <label for="name"> Assunto </label><br>
+                            <label for="title"> Assunto </label><br>
                             <input type="text" name="name" id="Assunto" placeholder="Digite o Assunto " required><br>
 
-                            <label for="msa"> Mensagem </label><br>
+                            <label for="Mensagem"> Mensagem </label><br>
                             <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Mensagem"></textarea>
 
 
-                            <input type="submit" value="Enviar" id="enviar">
-                            <input type="hidden" name="_captcha" value="false">
+                            <input type="submit" value="Enviar" id="enviar" onclick="modal()">
+                            <input type="hidden" name="_captcha" value="false"> 
+                            <input type="hidden" name="_template" value="table">
+                            <input type="hidden" name="_template" value="box">
                             <input type="reset" value="Limpar" id="limpar">
                         </form>
                     </div>
@@ -297,6 +299,13 @@
     <script src="assents/script.js"></script>
     <script src="sliide.js"></script>
     <script src="email.js"></script>
+
+    <div id="modal">
+        <div class="modal-conteudo" onmouseenter="entrou()">
+            <p> Email Enviado com sucesso </p><br>
+            <ion-icon name="checkmark" class="check"></ion-icon>
+        </div>
+    </div>
  
 </body>
 
