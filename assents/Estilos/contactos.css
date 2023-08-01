@@ -49,6 +49,7 @@ form {
 .form input {
     width: 90%;
     margin: auto;
+    height: 35px;
     outline: none;
     margin-top: 5px;
     border-radius: 3px;
