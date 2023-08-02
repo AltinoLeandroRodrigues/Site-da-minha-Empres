@@ -10,7 +10,7 @@
   width: 100px;
   filter: grayscale(100%);
   border-radius: 10%;
-  margin: 20px 40px;
+  margin: 20px 80px;
  
   transition: filter,transform  1s;
 }
