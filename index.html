@@ -192,13 +192,19 @@
 
                             <label for="Mensagem"> Mensagem </label><br>
                             <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Mensagem"></textarea>
+                             
 
 
                             <input type="submit" value="Enviar" id="enviar" onclick="modal()">
+                            <input type="reset" value="Limpar" id="limpar">
+
+                                <!-- configuraçãos de envio de email -->
                             <input type="hidden" name="_captcha" value="false"> 
                             <input type="hidden" name="_template" value="table">
-                            <input type="hidden" name="_template" value="box">
-                            <input type="reset" value="Limpar" id="limpar">
+                            <input type="hidden" name="_subject" value="Novo envio!">
+
+                            <!-- <input type="file" name="attachment" accept="image/png, image/jpeg"> -->
+                            <!-- <input type="hidden" name="_template" value="box"> -->
                         </form>
                     </div>
 
