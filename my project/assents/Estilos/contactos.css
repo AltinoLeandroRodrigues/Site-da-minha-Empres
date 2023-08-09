@@ -1,0 +1,280 @@
+#contactos {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+
+#contactos .imformação {
+    background-color: #ddd;
+    margin-right: 20px;
+    width: 35%;
+    float: left;
+    border-top: 4px solid darkviolet;
+    border-bottom: 4px solid darkviolet;
+    padding: 10px;
+    color: darkviolet;
+    padding-bottom: 10px;
+}
+
+.icone {
+    font-size: 50px;
+    color: darkviolet;
+    margin-right: 10px;
+}
+
+#contactos h1 {
+    position: absolute;
+    margin-left: 65px;
+    color: black;
+
+}
+
+.form {
+    background-color: #ddd;
+    width: 50%;
+    border-top: 4px solid darkviolet;
+    border-bottom: 4px solid darkviolet;
+    padding: 0px 10px;
+    color: darkviolet;
+    float: right;
+}
+
+form {
+    padding: 10px;
+    width: 100%;
+
+}
+
+.form input {
+    width: 90%;
+    margin: auto;
+    height: 35px;
+    outline: none;
+    margin-top: 5px;
+    border-radius: 3px;
+    border: 1px solid rgb(61, 34, 72);
+    margin-bottom: 10px;
+
+}
+
+.form label {
+    color: black;
+
+}
+
+#Assunto {
+    width: 90%;
+    height: 40px;
+}
+
+#msg {
+    width: 95%;
+    height: 200px;
+
+    resize: none;
+    outline: none;
+
+    border-radius: 5px;
+    border: 1px solid rgb(61, 34, 72);
+}
+
+iframe {
+    width: 100%;
+    height: 300px;
+}
+
+#limpar {
+    float: right;
+    width: 150px;
+    margin: 30px;
+    border: 0px solid black;
+    background-color: rgb(227, 99, 99);
+    /* border-radius: 30px; */
+    color: white;
+    cursor: pointer;
+    /* animation: mover 1s infinite; */
+}
+#enviar {
+    float: right;
+    width: 150px;
+    margin: 30px;
+    border: 0px solid black;
+    background-color: darkviolet;
+    /* border-radius: 30px; */
+    color: white;
+    cursor: pointer;
+    animation: mover 1s infinite;
+}
+
+#enviar:disabled{
+    cursor: not-allowed;
+    color: rgba(158, 6, 223, 0.904);
+}
+
+
+@keyframes mover {
+    100% {
+      transform: scale(1.2);
+      box-shadow: 1px 1px 16px darkviolet;
+    }
+       
+  }
+  
+  #enviar:hover{
+    animation: none;
+  }
+ 
+
+/* .send{
+    color: white;
+    position: absolute;
+    margin-left: 250px ;
+    margin-top: -45px;
+    transform: rotate(-50deg);
+} */
+
+
+
+@media (min-width:992px) and(max-width:1200px){
+   .Galeria{
+    padding: 10px;
+   }
+
+   #contactos {
+    display: grid;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+#contactos .imformação {
+    background-color: #ddd;
+    margin: auto auto 5px ;
+
+    width: 90%;
+    float: left;
+    border-top: 4px solid darkviolet;
+    border-bottom: 4px solid darkviolet;
+    padding: 10px;
+    color: darkviolet;
+    padding-bottom: 10px;
+}
+
+
+.form {
+    background-color: #ddd;
+    margin: auto;
+    width: 90%;
+    border-top: 4px solid darkviolet;
+    border-bottom: 4px solid darkviolet;
+    padding: 0px 10px;
+    color: darkviolet;
+    float: right;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+@media (min-width:768px) and(max-width:991px){
+    .Galeria{
+        padding: 10px;
+       }
+
+       #contactos {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    #contactos .imformação {
+        background-color: #ddd;
+        margin: auto auto 5px ;
+
+        width: 90%;
+        float: left;
+        border-top: 4px solid darkviolet;
+        border-bottom: 4px solid darkviolet;
+        padding: 10px;
+        color: darkviolet;
+        padding-bottom: 10px;
+    }
+
+
+    
+    .form {
+        background-color: #ddd;
+        margin: auto;
+        width: 90%;
+        border-top: 4px solid darkviolet;
+        border-bottom: 4px solid darkviolet;
+        padding: 0px 10px;
+        color: darkviolet;
+        float: right;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width:767px){
+    .Galeria{
+        padding: 10px;
+       }
+
+
+       #contactos {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 20px;
+        padding-bottom: 20px;
+    }
+
+
+
+    #contactos .imformação {
+        background-color: #ddd;
+        margin: auto auto 5px ;
+
+        width: 90%;
+        float: left;
+        border-top: 4px solid darkviolet;
+        border-bottom: 4px solid darkviolet;
+        padding: 10px;
+        color: darkviolet;
+        padding-bottom: 10px;
+    }
+
+    .form {
+        background-color: #ddd;
+        margin: auto;
+        width: 90%;
+        border-top: 4px solid darkviolet;
+        border-bottom: 4px solid darkviolet;
+        padding: 0px 10px;
+        color: darkviolet;
+        float: right;
+    }
+
+
+}
+

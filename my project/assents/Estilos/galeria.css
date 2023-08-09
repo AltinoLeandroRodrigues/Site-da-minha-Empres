@@ -1,0 +1,28 @@
+ body{
+    scroll-behavior: smooth;
+ }
+ 
+ .Galeria {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     gap: 10px;
+     margin-top: 20px;
+ }
+
+ .Galeria figure {
+    border-top-left-radius: 20px;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px black;
+    border: 1px solid #ddd;
+ }
+
+ .Galeria img {
+   transition: 1s;
+   height: 100%;
+ }
+
+ .Galeria img:hover {
+   cursor: pointer;
+   transform: scale(1.4) rotate(10deg);
+ }
